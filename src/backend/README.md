@@ -3,6 +3,8 @@
 ## Overview
 `main.ipynb` is an interactive Jupyter notebook designed to demonstrate the fundamental logic and workflow for fetching and visualizing stock market data. This notebook serves as an educational tool and a starting point for building a stock price prediction application.
 
+`model.py` is the final release of the model which meant to be trained and does not provide visualization of the date scraped
+
 ## Purpose
 This notebook illustrates:
 - How to retrieve historical stock data using the `yfinance` library
