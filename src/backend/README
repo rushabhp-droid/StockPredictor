@@ -1,0 +1,32 @@
+# Stock Predictor - Main Notebook Documentation
+
+## Overview
+`main.ipynb` is an interactive Jupyter notebook designed to demonstrate the fundamental logic and workflow for fetching and visualizing stock market data. This notebook serves as an educational tool and a starting point for building a stock price prediction application.
+
+## Purpose
+This notebook illustrates:
+- How to retrieve historical stock data using the `yfinance` library
+- Basic data handling with pandas DataFrames
+- Simple data visualization techniques for financial data analysis
+
+## Components
+
+### DataFetcher Class
+A utility class that encapsulates stock data retrieval logic. It accepts a stock ticker symbol and date range, then downloads historical OHLC (Open, High, Low, Close) data using Yahoo Finance API.
+
+### User Input Flow
+The notebook prompts users to provide:
+- **Stock Ticker**: The symbol representing the stock (e.g., AAPL for Apple)
+- **Start Date**: Beginning date for historical data in YYYY-MM-DD format
+- **End Date**: End date for historical data in YYYY-MM-DD format
+
+### Data Visualization
+A basic line chart is generated to visualize the closing price trend over the specified time period, providing visual insight into stock price movements.
+
+## Dependencies
+- `yfinance`: Fetches historical stock data from Yahoo Finance
+- `pandas`: Data manipulation and analysis
+- `matplotlib`: Data visualization
+
+## Usage
+Execute cells sequentially to input stock information, retrieve data, and generate visualizations. This notebook is ideal for understanding the foundational concepts before implementing more advanced prediction models.
