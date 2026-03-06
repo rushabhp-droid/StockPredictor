@@ -24,7 +24,7 @@ StockPredictor/
 
 ### Prerequisites
 - Python 3.7+
-- pip or conda
+- pip, conda or uv
 
 ### Installation
 
