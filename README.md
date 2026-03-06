@@ -36,7 +36,7 @@ cd StockPredictor
 
 2. Install dependencies:
 ```bash
-pip install -r src/backend/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Usage
