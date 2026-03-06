@@ -4,3 +4,4 @@ matplotlib
 torch
 scikit-learn
 numpy
+ipykernel
