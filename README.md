@@ -30,7 +30,7 @@ StockPredictor/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/StockPredictor.git
+git clone https://github.com/rushabhp-droid/StockPredictor.git
 cd StockPredictor
 ```
 
