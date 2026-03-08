@@ -5,3 +5,6 @@ torch
 scikit-learn
 numpy
 ipykernel
+flask
+flask-cors
+joblib
